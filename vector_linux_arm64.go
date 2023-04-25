@@ -1,5 +1,9 @@
 package cpuflagparser
 
+import (
+	"strings"
+)
+
 // NEON	64 bits
 // SVE	128 bits
 var vectorFlagsWidthMap = map[string]int{
